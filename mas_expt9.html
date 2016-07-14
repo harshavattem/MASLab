@@ -129,29 +129,29 @@ On clicking this button a new page displaying the graphs for three different pat
   </div>
 </div>
 <!-- Image of the face of the clock which is displayed on switching on the spectrophotometer -->
-<img class="img-responsive" id="clockScreen" style = "position:absolute; width:100%;height:100%;top:0%;left:0%; visibility:hidden" src="images/clock.png">
+<img class="img-responsive" id="clockScreen" style="position:absolute; z-index:5000; width:100%;height:100%;top:0%;left:0%; visibility:hidden" src="images/clock.png">
 <!-- Image of the hand of the clock -->
-<img class="img-responsive" id="clockHand" style = "position:absolute;top:38%;left:51%; visibility:hidden;" src="images/hand.png">
+<img class="img-responsive" id="clockHand" style="position:absolute; z-index:6000; top:38%; left:51%; visibility:hidden;" src="images/hand.png">
 <!-- Image of the greyed background displayed as a background while scanning the sample -->
-<img class="img-responsive" id="scanning" style = "position:absolute;z-index:1000; width:100%;height:100%;top:0%;left:0%; visibility:hidden" src="images/483.png">
+<img class="img-responsive" id="scanning" style="position:absolute;z-index:1000; width:100%;height:100%;top:0%;left:0%; visibility:hidden" src="images/483.png">
 <!-- Video that plots a graph for pH 2.2 sample -->
-<video id="ph22_graph" style = "position:absolute;z-index:1100;top:20%;left:20%;visibility : hidden;" ><source src="images/ph22.mp4" type="video/mp4"></video>
+<video id="ph22_graph" style="position:absolute;z-index:9000;top:20%;left:20%;visibility : hidden;" ><source src="images/ph22.mp4" type="video/mp4"></video>
 <!-- Video that plots a graph for pH 2.6 sample -->
-<video id="ph26_graph" style = "position:absolute;z-index:1100;top:20%;left:20%;visibility : hidden;" ><source src="images/ph26.mp4" type="video/mp4"></video>
+<video id="ph26_graph" style="position:absolute;z-index:9000;top:20%;left:20%;visibility : hidden;" ><source src="images/ph26.mp4" type="video/mp4"></video>
 <!-- Video that plots a graph for pH 3.0 sample -->
-<video id="ph30_graph" style = "position:absolute;z-index:1100;top:20%;left:20%;visibility : hidden;" ><source src="images/ph30.mp4" type="video/mp4"></video>
+<video id="ph30_graph" style="position:absolute;z-index:9000;top:20%;left:20%;visibility : hidden;" ><source src="images/ph30.mp4" type="video/mp4"></video>
 <!-- Video that plots a graph for pH 3.4 sample -->
-<video id="ph34_graph" style = "position:absolute;z-index:1100;top:20%;left:20%;visibility : hidden;" ><source src="images/ph34.mp4" type="video/mp4"></video>
+<video id="ph34_graph" style="position:absolute;z-index:9000;top:20%;left:20%;visibility : hidden;" ><source src="images/ph34.mp4" type="video/mp4"></video>
 <!-- Video that plots a graph for pH 3.8 sample -->
-<video id="ph38_graph" style = "position:absolute;z-index:1100;top:20%;left:20%;visibility : hidden;" ><source src="images/ph38.mp4" type="video/mp4"></video>
+<video id="ph38_graph" style="position:absolute;z-index:9000;top:20%;left:20%;visibility : hidden;" ><source src="images/ph38.mp4" type="video/mp4"></video>
 <!-- Video that plots a graph for pH 4.2 sample -->
-<video id="ph42_graph" style = "position:absolute;z-index:1100;top:20%;left:20%;visibility : hidden;" ><source src="images/ph42.mp4" type="video/mp4"></video>
+<video id="ph42_graph" style="position:absolute;z-index:9000;top:20%;left:20%;visibility : hidden;" ><source src="images/ph42.mp4" type="video/mp4"></video>
 <!-- Video that plots a graph for pH 4.6 sample -->
-<video id="ph46_graph" style = "position:absolute;z-index:1100;top:20%;left:20%;visibility : hidden;" ><source src="images/ph46.mp4" type="video/mp4"></video>
+<video id="ph46_graph" style="position:absolute;z-index:9000;top:20%;left:20%;visibility : hidden;" ><source src="images/ph46.mp4" type="video/mp4"></video>
 <!-- Video that plots a graph for pH 5.2 sample -->
-<video id="ph52_graph" style = "position:absolute;z-index:1100;top:20%;left:20%;visibility : hidden;" ><source src="images/ph52.mp4" type="video/mp4"></video>
+<video id="ph52_graph" style="position:absolute;z-index:9000;top:20%;left:20%;visibility : hidden;" ><source src="images/ph52.mp4" type="video/mp4"></video>
 <!-- Transparent image button to close the scanning page -->
-<img class="img-fluid" style="position:absolute; z-index:1200; width:5%; left:74%; top:67%;cursor:pointer;" onclick="disposeGraph();" src="images/vertical_button.png">
+<img class="img-fluid" style="position:absolute; z-index:9900; width:5%; left:74%; top:67%;cursor:pointer;" onclick="disposeGraph();" src="images/vertical_button.png">
 
 
 </body>

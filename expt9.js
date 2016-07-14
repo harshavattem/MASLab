@@ -598,7 +598,7 @@ function scan(){
   // make the image and video obtained visible.
   context.style.visibility='visible';
   vid.style.visibility='visible';
-  //play the video.
+  //play the video
   vid.play(); 
   step_no++;
 }
