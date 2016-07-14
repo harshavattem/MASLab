@@ -16,9 +16,9 @@ Topic: Experiment Conversion Using JavaScript
   the majority of the experiments in the Molecular Absorption Spectroscopy Lab
   (made by IIIT Hyderabad) using pure Javascript. We have also explored two major
   tools that could be used for similar lab building to make the entire process
-  easier. We have alos come across, but not explored in depth various other
-  online frameworks and tools that can be used to do the same.
-
+  easier. We have also come across, but not explored in depth various other
+  online frameworks and tools that can be used to do the same. Lastly, the need
+  for abstraction is and a basic idea of its implementation is explored.   
 * Acknowledgements
 
   We would like to acknowledge the guidance given to us by Professor Venkatesh
@@ -28,6 +28,10 @@ Topic: Experiment Conversion Using JavaScript
   VLEAD for making our life simple and helping us understand basics of Linux and
   Git.        
 
+* Motivation
+  + To realize a method to convert Flash-based experiments to JavaScript.
+  + To explore online tools/frameworks for experiment designing
+  + To understand the basic requirement for higher levels of abstraction and usability
 * The Pure JavaScript Approach
 
   Here, we first analyze the method we used, using pure JavaScript.   
