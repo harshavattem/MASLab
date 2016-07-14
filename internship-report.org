@@ -1,7 +1,7 @@
 #+TITLE: Internship Report - VLEAD Summer Internship 2016
 Topic: Experiment Conversion Using JavaScript
 
-* Presenters
+* Authors
 
 + Anshuman Karthik, Indian Institute of Technology Madras
 + Harsha Vattem, Indian Institute of Technology, Kharagpur
