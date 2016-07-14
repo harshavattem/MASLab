@@ -12,8 +12,8 @@ Topic: Experiment Conversion Using JavaScript
   Labs provides online lab simulations. Many of the labs and associated
   animations are created using Flash. Some of the labs are built with
   JavaScript. Using Flash-based labs provides compatibility issues and hence,
-  conversion of these labs is a dire necessity. In this project, we have converted
-  the majority of the experiments in the Molecular Absorption Spectroscopy Lab
+  conversion of these labs is a necessity. In this project, we have converted
+  most of the experiments in the Molecular Absorption Spectroscopy Lab
   (made by IIIT Hyderabad) using pure Javascript. We have also explored two major
   tools that could be used for similar lab building to make the entire process
   easier. We have also come across, but not explored in depth various other
