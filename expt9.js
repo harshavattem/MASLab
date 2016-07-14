@@ -371,9 +371,6 @@ function movePipette1() {
 }
 
 
-
-
-
 // This function is called when micro pipette is clicked.
 
 function movePipette2() {
@@ -440,7 +437,6 @@ function movePipette2() {
     step_no++;
     
   }
-
 }
 
 
@@ -531,8 +527,6 @@ function extraCuvette(){
 }
 
 
-
-
 // This function is called when spectrometer lid is clicked.
 // First time its called to open the spectrophotometer
 // Second time its called to close the spectrophotometer
@@ -560,13 +554,10 @@ function scan(){
   if(step_no==16){
     // After the cuvette are inserted into the spectrophotometer, when the computer in pressed to scan, depending on the pH choosen appropriate graph video is obtained.
 
-    
-    $('#ph_scale').change(function () {
+
       var chosen_ph = document.getElementById("ph_scale").value; 
-      
       if(chosen_ph=='0'){
         vid = document.getElementById("ph22_graph");
-        alert("PP");
       }
       else if(chosen_ph=='1'){
         vid = document.getElementById("ph26_graph");          
@@ -589,7 +580,7 @@ function scan(){
       else if(chosen_ph=='7'){
         vid = document.getElementById("ph52_graph");          
       }
-    });
+ 
   }
 
 
@@ -602,7 +593,6 @@ function scan(){
   vid.play(); 
   step_no++;
 }
-
 
 // This method makes the graph hidden once the video is played and close is clicked. 
 function disposeGraph(){

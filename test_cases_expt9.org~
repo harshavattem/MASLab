@@ -3,7 +3,7 @@ These are the test cases for experiment 9 in the MolecularAbsorptionSpectroscopy
 |---------------------------------------+-----------------------------------------------------+--------------+-------------------|
 | Test Steps                            | Expected Results                                    | Status:Flash | Status:JavaScript |
 |---------------------------------------+-----------------------------------------------------+--------------+-------------------|
-| Click on the spectrophotometer switch | The clock appears for 30 minutes. Lights            | Working Fine | Working Fine      |
+| Click on the spectrophotometer switch | The clock appears for 30 secs. Lights               | Working Fine | Working Fine      |
 |                                       | start flashing on the spectrophotometer.            |              |                   |
 |---------------------------------------+-----------------------------------------------------+--------------+-------------------|
 | Click on the beaker                   | The beaker moves to the table                       | Working Fine | Working Fine      |
