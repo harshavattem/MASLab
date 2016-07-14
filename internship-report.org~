@@ -19,7 +19,6 @@ Topic: Experiment Conversion Using JavaScript
   easier. We have also come across, but not explored in depth various other
   online frameworks and tools that can be used to do the same. Lastly, the need
   for abstraction is and a basic idea of its implementation is explored.   
-
 * Acknowledgements
 
   We would like to acknowledge the guidance given to us by Professor Venkatesh
@@ -30,14 +29,14 @@ Topic: Experiment Conversion Using JavaScript
   Git.        
 
 * Motivation
-
   + To realize a method to convert Flash-based experiments to JavaScript.
   + To explore online tools/frameworks for experiment designing
   + To understand the basic requirement for higher levels of abstraction and usability
-
 * The Pure JavaScript Approach
 
   Here, we first analyze the method we used, using pure JavaScript.   
+
+
 ** Methodology 
 
 *** Converting Existing Experiments
@@ -66,21 +65,6 @@ Topic: Experiment Conversion Using JavaScript
    + This can be expanded to build various lab kits, thus allowing a user to
      construct his own lab/experiment. For this, a simple drag and drop method
      can be employed to do so.
-
-   + To build various lab kits, we can employ the idea of a discrete dynamic
-     system, a concept which we were introduced to. This involves understanding
-     various physical systems and their corresponding states and relating them
-     with computational methods.
-    
-   ++ What we have done so far: We have built examples relating simple
-       systems with functions. These include mathematical systems, word based
-       systems and algorithmic everyday examples.
-   
-   ++ The way forward: While building a lab kit, it needs to be understood that
-      many scientific phenomena follow the idea of continuous systems. While
-      building lab kits, computational difference methods and scientific
-      differential methods need to be linked. This needs to be identified as a
-      basic property of every lab/experiment.    
 
 ** Where This Approach Succeeds 
 
