@@ -32,8 +32,8 @@ Topic: Experiment Conversion Using JavaScript
 * Motivation
 
   + To realize a method to convert Flash-based experiments to JavaScript.
-  + To explore online tools/frameworks for experiment designing
-  + To understand the basic requirement for higher levels of abstraction and usability
+  + To explore online tools/frameworks for experiment designing.
+  + To understand the basic requirement for higher levels of abstraction and usability.
 
 * The Pure JavaScript Approach
 
